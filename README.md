@@ -69,7 +69,7 @@ This is not a production model.
 It demonstrates how RAIGRA could evolve once real labelled assessments exist.
 
 ---
-## Project structure
+## 🗂 Project structure
 
 ```text
 raigra/
@@ -80,20 +80,22 @@ raigra/
     questions.py
     nlp_utils.py
   docs/
-    assessments.csv     # stored evaluations
+    assessments.csv
     contacts.csv
   model/
     raigra_ml_prototype.ipynb
   requirements.txt
+```   ← this closing ``` is what fixes everything
 
-## Run locally
+## 🖥 Run locally
+
+```bash
 git clone https://github.com/melo1-77/raigra.git
 cd raigra
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 streamlit run app/app.py
-
 Deployment
 
 The app is deployed on Streamlit Cloud:
