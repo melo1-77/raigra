@@ -1,0 +1,10 @@
+streamlit
+pandas
+numpy
+scikit-learn
+matplotlib
+requests
+beautifulsoup4
+transformers
+torch
+reportlab
