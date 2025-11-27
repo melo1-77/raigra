@@ -1,9 +1,9 @@
-# RAIGRA — Responsible AI Governance Readiness Assessment
+# RAIGRA - Responsible AI Governance Readiness Assessment
 
 RAIGRA helps organisations understand how prepared they are to deploy and govern AI responsibly.  
-The tool focuses on the practical side of governance — the processes, controls and culture that determine whether AI can be deployed safely and ethically inside an organisation.
+The tool focuses on the practical side of governance the processes, controls and culture that determine whether AI can be deployed safely and ethically inside an organisation.
 
-> Developed by **Melvin Riley** as part of an independent research and policy project.  
+> Developed by **Melvin Riley** as part of a responsible AI governance toolkit.  
 > Live demo: **https://raigra.streamlit.app/**
 
 ## Walkthrough video
