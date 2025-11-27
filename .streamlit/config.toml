@@ -1,0 +1,7 @@
+[theme]
+base = "light"
+primaryColor = "rgba(255, 0, 60, 1)"          # a warm orange for sliders/buttons
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F5F5F5"
+textColor = "#000000"
+font = "sans serif"
