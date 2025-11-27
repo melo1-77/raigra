@@ -70,8 +70,6 @@ It demonstrates how RAIGRA could evolve once real labelled assessments exist.
 
 ---
 ## Project structure
-
-```text
 raigra/
   app/                  # Streamlit application
     app.py
@@ -87,7 +85,6 @@ raigra/
   requirements.txt
 
 ## Run locally
-
 git clone https://github.com/melo1-77/raigra.git
 cd raigra
 python3 -m venv venv
@@ -97,19 +94,20 @@ streamlit run app/app.py
 
 
 ## Deployment
-App link: https://raigra.streamlit.app/
-Auto-redeploys on push to main.
+Deployed on Streamlit Cloud:
+🔗 https://raigra.streamlit.app/
 
 ## Roadmap
+	•Planned upgrades:
 	•	Live ML-powered scoring
-	•	SHAP model interpretability
+	•	SHAP-based interpretability for organisations
 	•	Sector-specific action plans
-	•	Admin analytics dashboard
-	•	Export to policy templates & implementation plans
+	•	Admin dashboard for analytics
+	•	Export to policy templates + implementation playbooks
+
 
 ## Contact
-For pilots or collaboration:
-
+Interested in pilots, research collaboration or governance consulting?
 mriley.official@gmail.com
 
 ## Licence
