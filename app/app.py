@@ -354,21 +354,28 @@ def main():
     # SIDEBAR
     with st.sidebar:
         st.markdown("### About this tool")
+        st.markdown("**RAIGRA v1.0 — Responsible AI Governance Assessment**")
+
         st.write(
             "This tool provides a structured, board-level view of how prepared your organisation is "
             "to design, deploy, and oversee AI responsibly."
         )
+
         st.markdown("**What you get**")
         st.write(
             "- A readiness score (0–100) and risk band for AI governance.\n"
             "- A breakdown across governance, privacy, technical controls, ethics, and capability.\n"
             "- A concise action list you can use with senior leaders or programme owners."
         )
+
         st.markdown("---")
         st.caption(
             "Developed as part of a responsible AI governance toolkit. Results are indicative and "
             "designed to support internal discussion, not to replace legal or regulatory advice."
         )
+
+        st.markdown("🔗 [View source on GitHub](https://github.com/melo1-77/raigra)")
+        st.markdown("📨 To explore pilots or research collaboration, Contact: **mriley.official@gmail.com**")
     # MAIN HEADER
     st.markdown("## AI Governance Readiness Assessment")
 
