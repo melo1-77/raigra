@@ -98,12 +98,12 @@ Deployed on Streamlit Cloud:
 🔗 https://raigra.streamlit.app/
 
 ## Roadmap
-•Planned upgrades:
-•Live ML-powered scoring
-•SHAP-based interpretability for organisations
-•Sector-specific action plans
-•Admin dashboard for analytics
-•Export to policy templates + implementation playbooks
+•   Planned upgrades:
+•   Live ML-powered scoring
+•   SHAP-based interpretability for organisations
+•   Sector-specific action plans
+•   Admin dashboard for analytics
+•   Export to policy templates + implementation playbooks
 
 
 ## Contact
