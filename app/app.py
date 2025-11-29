@@ -628,14 +628,7 @@ def main():
             text_insights=text_insights,  
         )
 
-        st.download_button(
-            "Download PDF report",
-            data=pdf_buffer,
-            file_name="ai_readiness_report.pdf",
-            mime="application/pdf",
-        )
-
-         # Historical tracking – show previous assessments for this org/email
+                 # Historical tracking – show previous assessments for this org/email
         assessments_path = Path("docs") / "assessments.csv"
         if assessments_path.exists():
             df_all = pd.read_csv(assessments_path)
@@ -671,6 +664,7 @@ def main():
                         f"Overall readiness changed by {delta:+.1f} points between the last two assessments "
                         f"({prev_score:.1f} → {latest_score:.1f} on a 0–100 scale)."
                     )
+
                 st.dataframe(
                     df_org[
                         [
@@ -716,5 +710,20 @@ def main():
                             "No historical data stored yet for this category column. "
                             "Run a few more assessments to populate the trend."
                         )
+
+        # Final export CTA – PDF at the very bottom
+        st.markdown("---")
+        st.markdown("### Export your results")
+
+        st.download_button(
+            "📄 Download full PDF report",
+            data=pdf_buffer,
+            file_name="ai_readiness_report.pdf",
+            mime="application/pdf",
+        )
+        st.caption(
+            "You can share this report with governance leads, boards, or regulators."
+        )
+
 if __name__ == "__main__":
     main()
