@@ -1,8 +1,15 @@
 venv/
+.venv/
 __pycache__/
 *.pyc
+
 docs/contacts.csv
 docs/assessments.csv
+
 .idea/
 .vscode/
 .DS_Store
+
+.cache/
+.streamlit/
+*.pdf
